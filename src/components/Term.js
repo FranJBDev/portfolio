@@ -23,7 +23,6 @@ export default function Term() {
                 "---",
                 "Type 'help' to see a list of commands.",
                 "---",
-                "Based in asheeeshh's AshTerm Portfolio"
             ]}
             commands={{
                 clear: {
