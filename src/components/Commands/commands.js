@@ -56,6 +56,14 @@ export default {
                 return "opening github account..."
             }
         },
+        linkedin: {
+            description: 'Opens my linkedin Profile.',
+            usage: 'linkedin',
+            fn: () => {
+                window.open('https://linkedin.com/in/gandhyman', '_blank')
+                return "opening linkedin account..."
+            }
+        },
         languages: {
             description: 'Languages I know.',
             usage: 'languages',
