@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 // import getcat from "../../utils/cat"
-import getnp from "../../utils/spotify"
+// import getnp from "../../utils/spotify"
 export default {
     commands: {
         echo: {
@@ -50,7 +50,7 @@ export default {
         },
         github: {
             description: 'Opens my GitHub Profile.',
-            usage: 'twitter',
+            usage: 'github',
             fn: () => {
                 window.open('https://github.com/gandhyman', '_blank')
                 return "opening github account..."
@@ -124,19 +124,19 @@ export default {
                 return "opening repository..."
             }
         },
-        spotify: {
-            description: 'Get info about my recently played song.',
-            usage: 'spotify',
-            fn: async () => {
-                const item = await getnp()
-                return `
-                    Now Playing/Recently Played\n
-                    ---\n
-                    Song: ${item.song}\n
-                    Artist: ${item.artist}\n---\n
-                `
-            }
-        }
+        // spotify: {
+        //     description: 'Get info about my recently played song.',
+        //     usage: 'spotify',
+        //     fn: async () => {
+        //         const item = await getnp()
+        //         return `
+        //             Now Playing/Recently Played\n
+        //             ---\n
+        //             Song: ${item.song}\n
+        //             Artist: ${item.artist}\n---\n
+        //         `
+        //     }
+        // }
     },
     overwrites:{
         help: {
