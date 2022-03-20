@@ -21,14 +21,30 @@ export default {
             description: 'About Me.',
             usage: 'about',
             fn: () => {
-                return "About Me.\n---\nmale\n18\nstudent\nsolodev\nmelophile\nweeb\ndumb\napathetic\n---\n"
+                return "About Me.\n---\nI'ḿ a Henry Full Stack Web Developer graduate.\n Skills: JavaScript, HTML, CSS, JSX, TypeScript,\n Node, React, Redux, Express, Jquery, AJAX,\nSequelize and more..n---\n"
             }
         },
         twitter: {
             description: 'Opens my Twitter Handle.',
             usage: 'twitter',
             fn: () => {
-                window.open('https://twitter.com/_asheeshh', '_blank')
+                window.open('https://twitter.com/Gandhymann', '_blank')
+                return "opening twitter handle..."
+            }
+        },
+        facebook: {
+            description: 'Opens my facebook profile.',
+            usage: 'facebook',
+            fn: () => {
+                window.open('https://www.facebook.com/fcojimb', '_blank')
+                return "opening twitter handle..."
+            }
+        },
+        youtube: {
+            description: 'Opens my youtube channel.',
+            usage: 'youtube',
+            fn: () => {
+                window.open('https://www.youtube.com/c/Gandhyman', '_blank')
                 return "opening twitter handle..."
             }
         },
@@ -36,16 +52,8 @@ export default {
             description: 'Opens my GitHub Profile.',
             usage: 'twitter',
             fn: () => {
-                window.open('https://github.com/asheeeshh', '_blank')
+                window.open('https://github.com/gandhyman', '_blank')
                 return "opening github account..."
-            }
-        },
-        discord: {
-            description: 'Opens my Discord Account.',
-            usage: 'twitter',
-            fn: () => {
-                window.open('https://discordapp.com/users/784363251940458516', '_blank')
-                return "opening discord account..."
             }
         },
         languages: {
@@ -53,17 +61,20 @@ export default {
             usage: 'languages',
             fn: () => {
                 return `
-                    these are the languages I know.\n---\n
+                    these are some languages I know.\n---\n
                     english          - 70%
-                    hindi            - 100%
-                    gen-z-langauge   - 00%
+                    spanish          - Native
+                    React            - 90%
+                    c++              - 00%
                     python           - 60%
-                    javascript       - 40%
+                    javascript       - 80%
                     html5            - 90%
                     css3             - 80%
-                    ruby             - 40%
-                    rust             - 10% - [learning]
-                    go-lang          - 10% - [learning]\n---\n
+                    c#               - 50%
+                    sql              - 90%
+                    sequelize        - 80%
+                    java             - [learning]
+                    react native     - [learning]\n---\n
                 `
             }
         },
@@ -78,7 +89,8 @@ export default {
                     studying         - 10%
                     overthinking     - 100%
                     social-skills    - 00%
-                    making-playlists - 100%\n---\n
+                    making-playlists - 100%
+                    gaming           - 300%\n---\n
                 `
             }
         },
@@ -88,10 +100,8 @@ export default {
             fn: () => {
                 return `
                     Cool projects I have worked on.\n---\n
-                    'kanna-chan'                      | 'Discord-Bot'         | 'python'
-                    'wordinal'                        | 'wordle-on-terminal'  | 'javascript'
-                    'weeby.py'                        | 'API-wrapper'         | 'python'
-                    'github-readme-banner-generator'  | 'banner-generator'    | 'javascript'\n---\n
+                    'Pokemon App'                      | 'Using pokemon Api'                  | 'ReactJS'
+                    'Buyme App'                        | 'Ecommerce - Henry's final project'  | 'ReactJS'\n---\n
                 `
             }
         },
@@ -101,8 +111,8 @@ export default {
             fn: () => {
                 return `
                     Editor: Visual Studio Code\n
-                    Theme : GitHub Default Theme\n
-                    Font  : Consolas
+                    Theme : Night Owl\n
+                    Font  : Default
                 `
             }
         },
@@ -110,7 +120,7 @@ export default {
             description: "Opens this website's github repository.",
             usage: 'repo',
             fn: () => {
-                window.open("https://github.com/asheeeshh/AshTerm", '_blank')
+                window.open("https://github.com/gandhyman/portfolio", '_blank')
                 return "opening repository..."
             }
         },
