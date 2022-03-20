@@ -21,7 +21,7 @@ export default {
             description: 'About Me.',
             usage: 'about',
             fn: () => {
-                return "About Me.\n---\nI'ḿ a Henry Full Stack Web Developer graduate.\n Skills: JavaScript, HTML, CSS, JSX, TypeScript,\n Node, React, Redux, Express, Jquery, AJAX,\nSequelize and more..n---\n"
+                return "About Me.\n---\nI'ḿ a Henry Full Stack Web Developer graduate.\n Skills: JavaScript, HTML, CSS, JSX, TypeScript,\n Node, React, Redux, Express, Jquery, AJAX,\nSequelize and more..---\n"
             }
         },
         twitter: {
@@ -152,7 +152,7 @@ export default {
             usage: 'help',
         },
         cd: {
-            description: 'Change directory, not really, lol!',
+            description: 'Change directory',
             usage: 'cd <directory>',
         },
         ls: {
