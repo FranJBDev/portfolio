@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import getcat from "../../utils/cat"
+// import getcat from "../../utils/cat"
 import getnp from "../../utils/spotify"
 export default {
     commands: {
