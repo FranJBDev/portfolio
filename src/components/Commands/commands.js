@@ -37,7 +37,7 @@ export default {
             usage: 'facebook',
             fn: () => {
                 window.open('https://www.facebook.com/fcojimb', '_blank')
-                return "opening twitter handle..."
+                return "opening facebook profile..."
             }
         },
         youtube: {
@@ -45,7 +45,7 @@ export default {
             usage: 'youtube',
             fn: () => {
                 window.open('https://www.youtube.com/c/Gandhyman', '_blank')
-                return "opening twitter handle..."
+                return "opening youtube channel..."
             }
         },
         github: {
