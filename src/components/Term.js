@@ -21,7 +21,7 @@ export default function Term() {
                 "---",
                 "I'm Francisco Jimenez Benavides a fullstack web developer.",
                 "---",
-                "Type 'help' to see a list of commands.",
+                "Type 'help' to see a list of commands. Example: cv",
                 "---",
             ]}
             commands={{

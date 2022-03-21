@@ -101,7 +101,7 @@ export default {
                     gaming           - 300%\n---\n
                 `
             }
-        },
+        }, // https://drive.google.com/file/d/1sPfgsz0g3bxK1rYr78v2B5cSx8vQ2x4p/view?usp=sharing
         projects: {
             description: 'Projects I have worked on.',
             usage: 'projects',
@@ -111,6 +111,14 @@ export default {
                     'Pokemon App'                      | 'Using pokemon Api'                  | 'ReactJS'
                     'Buyme App'                        | 'Ecommerce - Henry's final project'  | 'ReactJS'\n---\n
                 `
+            }
+        },
+        cv: {
+            description: 'Curriculum Vitae.',
+            usage: 'cv',
+            fn: () => {
+                window.open('https://drive.google.com/file/d/1sPfgsz0g3bxK1rYr78v2B5cSx8vQ2x4p/view?usp=sharing', '_blank')
+                return "opening linkedin account..."
             }
         },
         editor: {
