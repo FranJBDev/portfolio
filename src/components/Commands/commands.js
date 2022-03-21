@@ -118,7 +118,7 @@ export default {
             usage: 'cv',
             fn: () => {
                 window.open('https://drive.google.com/file/d/1sPfgsz0g3bxK1rYr78v2B5cSx8vQ2x4p/view?usp=sharing', '_blank')
-                return "opening linkedin account..."
+                return "opening cv in google drive..."
             }
         },
         editor: {
