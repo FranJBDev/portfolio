@@ -112,10 +112,18 @@ export default {
                     'Buyme App'                        | 'Ecommerce - Henry's final project'  | 'ReactJS'\n---\n
                 `
             }
-        },
+        }, 
         cv: {
-            description: 'Curriculum Vitae.',
+            description: 'English Curriculum Vitae.',
             usage: 'cv',
+            fn: () => {
+                window.open('https://drive.google.com/file/d/1qcI_TM4zGKqf4kEizx9F--yhoqk8gw83/view?usp=sharing', '_blank')
+                return "opening cv in google drive..."
+            }
+        },
+        cv2: {
+            description: 'Spanish Curriculum Vitae.',
+            usage: 'cv2',
             fn: () => {
                 window.open('https://drive.google.com/file/d/1sPfgsz0g3bxK1rYr78v2B5cSx8vQ2x4p/view?usp=sharing', '_blank')
                 return "opening cv in google drive..."
