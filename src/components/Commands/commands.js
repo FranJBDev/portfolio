@@ -117,7 +117,7 @@ export default {
             description: 'English Curriculum Vitae.',
             usage: 'cv',
             fn: () => {
-                window.open('https://drive.google.com/file/d/1qcI_TM4zGKqf4kEizx9F--yhoqk8gw83/view?usp=sharing', '_blank')
+                window.open('https://drive.google.com/file/d/1t3_IJYND7Au3NcqngUsgLVliE2d6YcFY/view', '_blank')
                 return "opening cv in google drive..."
             }
         },
